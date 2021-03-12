@@ -1,0 +1,94 @@
+body {
+    font-family: 'Nunito Sans';font-size: 22px;
+}
+
+header {
+	background: #191919;
+	padding: 20px 0;
+}
+
+.cabecalho {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+.titulo {
+	position: absolute;
+	top: 50px;
+	right: 120px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.subtitulo {
+	position: absolute;
+	top: 200px;
+	right: 160px;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+.menu {
+	width: 940px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	justify-content: center;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+
+.menu li:hover {
+	border-color: #8A05BE;
+}
+
+.menu li:active {
+	border-color: #088C19;	
+}
+
+.menu li:hover h2 {
+	font-size: 34px;
+	color: #8A05BE;
+}
+
+.menu h2 {
+	padding: 0 20px 20px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.menu h2 br {
+	color:#8A05BE;
+}
+
+.menu-descricao {
+	padding: 20px 0 0;
+	font-size: 18px;
+}
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 1px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	
+}
